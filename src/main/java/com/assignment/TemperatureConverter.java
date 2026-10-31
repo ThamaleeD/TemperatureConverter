@@ -4,7 +4,7 @@ package com.assignment;
 public class TemperatureConverter {
     public double celsiusToFahrenheit(double celsius) {
 
-        return (celsius * 9 / 5) - 32 ;
+        return (celsius * 9 / 5) + 32 ;
 
     }
 
@@ -14,7 +14,7 @@ public class TemperatureConverter {
     }
 
     public double celsiusToKelvin(double celsius) {
-        return celsius + 273;
+        return celsius + 273.15;
 
     }
     public static void main(String[] args) {
