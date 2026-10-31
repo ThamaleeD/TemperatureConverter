@@ -15,13 +15,13 @@ class TemperatureConverterTest {
     @Test
     void fahrenheitToCelsius() {
         TemperatureConverter temperatureConverter = new TemperatureConverter();
-        assertEquals(0,temperatureConverter.fahrenheitToCelsius(32));
+        assertEquals(100,temperatureConverter.fahrenheitToCelsius(212));
     }
 
     @Test
     void celsiusToKelvin() {
         TemperatureConverter temperatureConverter = new TemperatureConverter();
-        assertEquals(0,temperatureConverter.celsiusToKelvin(-273.15));
+        assertEquals(273.15,temperatureConverter.celsiusToKelvin(0));
     }
 
 
